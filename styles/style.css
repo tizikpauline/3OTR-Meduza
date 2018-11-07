@@ -1,0 +1,61 @@
+@import "reset.css";
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header, .timestamp, .panel {
+  font-family: Arial, sans-serif;
+}
+
+body > header {
+  display: flex;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  background-color: rgb(38, 38, 38);
+  font-size: 13px;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+}
+
+h3 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+.logo{
+  height: 21px;
+  margin-left: 15px;
+}
+
+body > header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body > header li {
+  padding-right: 15px;
+}
+
+.panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 45px;
+
+
+  background-color: #fff;
+
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
+
+.panel button {
+  position: absolute;
+  right: 0;
+}
